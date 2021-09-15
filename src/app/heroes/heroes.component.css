@@ -1,0 +1,5 @@
+.selected{
+  background-color: aqua;
+  width: fit-content;
+  border: 10px black;
+}
