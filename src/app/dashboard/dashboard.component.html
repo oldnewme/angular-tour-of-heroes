@@ -3,5 +3,7 @@
   <a *ngFor="let hero of heroes"
      routerLink="/detail/{{hero.id}}">
     {{hero.name}}
+    <img mat-card-image class="monster" src="https://robohash.org/{{ hero.id }}/?set=set2">
   </a>
+
 </div>
